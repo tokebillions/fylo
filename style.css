@@ -149,7 +149,7 @@ header{
 /* /* review Start point   */
 .img-qu{
    position: absolute;
-   top: 106em;
+   top: 108em;
    left: 115px;
    z-index: -1;
 
@@ -324,9 +324,11 @@ footer{
     list-style-type: none;
  }
 
- ion-icon{
-     color: hsl(0, 0%, 100%);
- }
+ .divv5{
+    text-align: center;
+    grid-column-start: 10;
+    grid-column-end: 12;  
+}
 
 
 
