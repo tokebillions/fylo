@@ -462,7 +462,7 @@ footer{
         margin-bottom: 50px;
     }
 
-    .card{
+   .card{
         background-color: hsl(217, 28%, 15%);
         color: hsl(0, 0%, 100%);
         width: 60%;
@@ -470,7 +470,8 @@ footer{
         margin-left: 6em;
         position: absolute;
         top: 182em;
-        padding: 20px ;
+        padding: 15px ;
+        
     }
     .search{
         display: grid;
@@ -490,36 +491,47 @@ footer{
     } 
 
     .container{
-        padding-top: 150px;
+        padding-top: 12em;
+        margin-top: 7em;
+
+    }
+    footer{
         display: grid;
-        grid-template-columns: (12, 1fr) ;
-        color: hsl(0, 0%, 100%);
-    } 
+        grid-template-columns:repeat(5, 1fr) ;
+        
+    
+    }
      .divv1{
-        grid-column-start: 1;
+        grid-column-start: 2;
         grid-column-end: 5;
         text-align: center;
+        padding-bottom: 2em;
     }
     .divv2{
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: 5;
     text-align: center;
+    padding-bottom: 2em;
     }
     .divv3{
-        grid-column-start: 1;
+        grid-column-start: 2;
         grid-column-end: 5;
         text-align: center;
+        padding-bottom: 2em;
     }
     .divv4{
-        grid-column-start: 1;
+        grid-column-start: 2;
         grid-column-end: 5;
         text-align: center;
+        padding-bottom: 2em;
+    }
+    .divv5{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        text-align: center;
+        padding-bottom: 2em;
     }
 
-    #logo2{
-        margin-left: 0;
-        padding: 0;
-    }
     
 }
 
