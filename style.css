@@ -3,7 +3,7 @@
 *{
     box-sizing: border-box;
     margin: 0px;
-    /* padding: 10px  ; */
+    padding:0
     
 }
 nav{
@@ -148,10 +148,10 @@ header{
 
 /* /* review Start point   */
 .img-qu{
-   position: absolute;
-   top: 106em;
+    position: absolute;
+   top: 108em;
    left: 115px;
-   z-index: -1;
+   z-index: -1;;
 
 }
 .review{
@@ -162,6 +162,8 @@ header{
     color: hsl(0, 0%, 100%);
     font-family: 'Open Sans', sans-serif;
     padding: 100px;
+    padding-top: 0;
+    margin-top: 5em;
     
 }
 .banner-review1{
@@ -207,10 +209,11 @@ header{
     text-align: center; 
     margin-left: 20em;
     padding: 10px;
-    position: absolute;
-    top: 132em;
-    padding: 30px  ;
-   
+    margin-top: 5em;
+    /* margin-bottom: -20px; */
+    z-index: 10;
+    
+    
 }
 
 .card h2{
@@ -261,14 +264,14 @@ header{
 /* footer start point */
 .container{
     background-color: hsl(216, 53%, 9%);
-    padding: 10px;
-    padding-top: 150px;
+    padding-top: 70px;
     margin: 0;
     border: 0;
     background-size:contain;
-    margin-top: 10em;
+    margin-top: 0;
     background-repeat: repeat;
     padding-left: 3em;
+    z-index: -1;
 }
 .lorem > img{
     border: none;
@@ -324,10 +327,11 @@ footer{
     list-style-type: none;
  }
 
- ion-icon{
-     color: hsl(0, 0%, 100%);
- }
-
+.divv5{
+    text-align: center;
+    grid-column-start: 10;
+    grid-column-end: 12;  
+}
 
 
 /* footer end point */
@@ -423,7 +427,7 @@ footer{
 
     .img-qu{
         position: absolute;
-        top: 128em;
+        top: 133em;
         left: 90px; 
         z-index: -1;
         width: 10px;
@@ -468,7 +472,8 @@ footer{
         margin-left: 6em;
         position: absolute;
         top: 182em;
-        padding: 20px ;
+        padding: 15px ;
+        
     }
     .search{
         display: grid;
@@ -486,38 +491,49 @@ footer{
         grid-column-end: 12;
         text-align: center;
     } 
-
+    
     .container{
-        padding-top: 150px;
+        padding-top: 12em;
+        margin-top: 7em;
+
+    }
+    footer{
         display: grid;
-        grid-template-columns: (12, 1fr) ;
-        color: hsl(0, 0%, 100%);
-    } 
+        grid-template-columns:repeat(5, 1fr) ;
+        
+    
+    }
      .divv1{
-        grid-column-start: 1;
+        grid-column-start: 2;
         grid-column-end: 5;
         text-align: center;
+        padding-bottom: 2em;
     }
     .divv2{
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: 5;
     text-align: center;
+    padding-bottom: 2em;
     }
     .divv3{
-        grid-column-start: 1;
+        grid-column-start: 2;
         grid-column-end: 5;
         text-align: center;
+        padding-bottom: 2em;
     }
     .divv4{
-        grid-column-start: 1;
+        grid-column-start: 2;
         grid-column-end: 5;
         text-align: center;
+        padding-bottom: 2em;
+    }
+    .divv5{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        text-align: center;
+        padding-bottom: 2em;
     }
 
-    #logo2{
-        margin-left: 0;
-        padding: 0;
-    }
     
 }
 
