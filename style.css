@@ -66,12 +66,16 @@ header{
 /* The starting point for icon section */
 .icon-1{
     display: grid;
-    grid-template-columns: repeat(12, 1fr) ;
+    /* grid-template-columns: repeat(12, 1fr) ; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     color: hsl(0, 0%, 100%);
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     padding: 10px  ;
+    width: 100%;
 }
 .icon-1a{
     text-align: center;
@@ -81,18 +85,22 @@ header{
 }
 .icon-1b{
     text-align: center;
-    grid-column-start: 7;
-    grid-column-end: 11;
+    grid-column-start: 6;
+    grid-column-end: 10;
     padding: 10px  ;
 }
 .icon-2{
     display: grid;
-    grid-template-columns: repeat(12, 1fr) ;
+    /* grid-template-columns: repeat(12, 1fr) ; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     color: hsl(0, 0%, 100%);
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    padding: 20px  ;
+    padding: 10px  ;
+    width: 100%;
 }
 .icon-2a{
     text-align: center;
@@ -102,16 +110,19 @@ header{
 }
 .icon-2b{
     text-align: center;
-    grid-column-start: 7;
-    grid-column-end: 11;
+    grid-column-start: 6;
+    grid-column-end: 10;
     padding: 10px  ;
 }
 /* The End point for icon section */
 
 /* product starting point */
 .product-1{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr auto) ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
     color: hsl(0, 0%, 100%);
     
     
@@ -122,13 +133,13 @@ header{
 }
 .product-1b{
     margin-top: 150px;
-    /* margin-left: 100px; */
-    text-align: justify;
+    text-align: left;
     grid-column-start: 2;
     grid-column-end: 19;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     padding: 10px  ;
+    width: 32%;
 }
 .product-1b h2{
      font-family: 'Raleway', sans-serif; 
@@ -148,11 +159,7 @@ header{
 
 /* /* review Start point   */
 .img-qu{
-<<<<<<< HEAD
-    position: absolute;
-=======
    position: absolute;
->>>>>>> 8c9730e36410823e662806aa5d1533536e3e7c20
    top: 108em;
    left: 115px;
    z-index: -1;;
@@ -331,19 +338,11 @@ footer{
     list-style-type: none;
  }
 
-<<<<<<< HEAD
-.divv5{
-=======
  .divv5{
->>>>>>> 8c9730e36410823e662806aa5d1533536e3e7c20
     text-align: center;
     grid-column-start: 10;
     grid-column-end: 12;  
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 8c9730e36410823e662806aa5d1533536e3e7c20
 
 
 /* footer end point */
