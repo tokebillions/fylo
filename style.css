@@ -434,12 +434,15 @@ footer{
         text-align: center;
         grid-column-start: 1;
         grid-column-end: 10;
-        margin-top: 0;
+        align-items: center;
+        padding:auto;
+        margin: 0%;
+        margin-left: 14em;
     }
 
     .img-qu{
         position: absolute;
-        top: 133em;
+        top: 144em;
         left: 90px; 
         z-index: -1;
         width: 10px;
@@ -483,7 +486,7 @@ footer{
         text-align: center; 
         margin-left: 6em;
         position: absolute;
-        top: 182em;
+        top: 190em;
         padding: 15px ;
         
     }
