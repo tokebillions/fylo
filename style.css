@@ -160,7 +160,7 @@ header{
 /* /* review Start point   */
 .img-qu{
    position: absolute;
-   top: 108em;
+   top: 106em;
    left: 115px;
    z-index: -1;;
 
@@ -220,9 +220,10 @@ header{
     text-align: center; 
     margin-left: 20em;
     padding: 10px;
-    margin-top: 5em;
-    /* margin-bottom: -20px; */
-    z-index: 10;
+    margin-top: 6em;
+    position: absolute;
+    top: 119em;
+    z-index: 1;
     
     
 }
@@ -275,14 +276,14 @@ header{
 /* footer start point */
 .container{
     background-color: hsl(216, 53%, 9%);
-    padding-top: 70px;
+    padding-top: 100px;
     margin: 0;
     border: 0;
     background-size:contain;
-    margin-top: 0;
+    margin-top: 5em;
     background-repeat: repeat;
     padding-left: 3em;
-    z-index: -1;
+    
 }
 .lorem > img{
     border: none;
