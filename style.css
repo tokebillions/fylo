@@ -365,7 +365,7 @@ footer{
         display: flex;
         flex-direction: row;
         font-family: 'Raleway', sans-serif;
-        padding: 1em;
+        padding: 2em;
         margin: 0;
     
     }
@@ -377,6 +377,7 @@ footer{
         justify-content: flex-end;
         padding-left: 50px;
         padding-top: 10px;
+        margin-left: 32px;
     }
     nav img{
         height: 30px;
