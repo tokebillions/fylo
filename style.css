@@ -19,6 +19,11 @@ body{
     background-position: bottom,center;
  
 }
+
+nav img{
+    max-width: 100%;
+    height: auto;
+}
 nav ul{
     list-style-type: none;
     margin: 0;
@@ -44,7 +49,7 @@ header{
     font-family: 'Raleway', sans-serif;
     font-weight: 400,700;
     padding: 10px  ;
- ;
+ 
 } 
 .intro-text{
     width: auto;
@@ -354,28 +359,36 @@ footer{
 }
 /* Mobile view */
 
-@media (max-width: 720px) {
+@media only screen and (max-width: 600px) {
+    /* [class*="col"] */
     nav{
         display: flex;
+        flex-direction: row;
         font-family: 'Raleway', sans-serif;
         padding: 1em;
+        margin: 0;
+    
     }
     nav ul{
         font-size: 12px;
-        display: flex;
+         display: inline-table; 
         color: hsl(0, 0%, 100%);
-        padding-left: 5em;
+        margin-left: 0;
         justify-content: flex-end;
+        padding-left: 50px;
+        padding-top: 10px;
     }
     nav img{
         height: 30px;
         width: auto;
-        margin-top: 14px;
+        padding: 0;
+        margin: 0;
+       
     }
 
     header img{
         width: auto;
-        height: 300px;
+        height: 250px;
     }
     .icon-1{
         display: grid;
@@ -419,31 +432,32 @@ footer{
         width: auto;
         height: 250px;
         text-align: center;
-        grid-column-start: 1;
-        grid-column-end: 10;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5em;
     }
 
     .product-1{
-        display: grid;
-        grid-template-columns: repeat(12, 1fr) ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         color: hsl(0, 0%, 100%);
     }
 
 
-    .product-1b{
+    .product-1>div{
         text-align: center;
-        grid-column-start: 1;
-        grid-column-end: 10;
-        align-items: center;
         padding:auto;
         margin: 0%;
-        margin-left: 14em;
+        justify-content: center;
+        align-items: center;
     }
 
     .img-qu{
         position: absolute;
         top: 144em;
-        left: 90px; 
+        left: 105px; 
         z-index: -1;
         width: 10px;
         height: auto;
@@ -454,7 +468,7 @@ footer{
         grid-template-columns: repeat(12, 1fr) ;
         color: hsl(0, 0%, 100%);
         padding: 50px;
-        margin-left: 60px;
+        margin-left: 70px;
     }
 
     .banner-review1{
@@ -486,7 +500,7 @@ footer{
         text-align: center; 
         margin-left: 6em;
         position: absolute;
-        top: 190em;
+        top: 192em;
         padding: 15px ;
         
     }
